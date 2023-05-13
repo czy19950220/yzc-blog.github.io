@@ -1,0 +1,743 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="yzc">
+  <meta name="keywords" content="">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="于志偲的博客">
+<meta property="og:url" content="https://yzc-blog.netlify.app/page/267/index.html">
+<meta property="og:site_name" content="于志偲的博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="yzc">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>于志偲的博客</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"yzc-blog.netlify.app","root":"/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>志偲的博客</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="欢迎来到志偲的网站"></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2023/04/21/eeb905b0c23722858a17ded309b98930/" target="_self">
+          桃花送来的夫君
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/04/21/eeb905b0c23722858a17ded309b98930/" target="_self">
+        <div>
+          我曾告诉江淮，我不做妾的，他笑了。 告诉我，只有端庄有度的女子可为正妻，我适合做金丝雀。 我转头以正妻身份嫁与他人。 出嫁当天，江淮抢亲了。 他红了眼睛质问，宋昭昭，你要嫁给谁？    「江淮，我要嫁人了。」我把头靠在他的肩上。  「我还没娶妻。」江淮掐了掐我的脸，「再等等吧。」 我把手滑进江淮的掌心，十指相扣。 「江淮，我不做妾。」 「昭昭，你真让我为难。」 江淮叹了口气。 「我没说嫁你。」 「
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-04-21 14:15" pubdate>
+              2023-04-21
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%88%91%E4%B8%8D%E6%98%AF%E7%9B%90%E7%A5%9E/">#我不是盐神</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2023/04/21/fdd64c5e0d56da3baacdd6973818dc2e/" target="_self">
+          在领悟到什么道理后，你的人生从此轻松了起来？
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/04/21/fdd64c5e0d56da3baacdd6973818dc2e/" target="_self">
+        <div>
+          站在高维度的视角看待问题，增加对事情的理解层次，冥冥之中事情就会往更好的方向发展。 「NLP 理解层次」把对一件事情的理解分成了 6 个不同的层次，而这个层次是有高低之分的。 那么什么是「NLP 理解层次」呢？ 我们首先来想象这样一个场景： 假设，你现在是一个「某品牌运动鞋」的门店代理商，门店开在上海的闹市区已经很多年了，你雇了些人帮着你经营，你每周来一次店里了解情况，门店的生意一直以来都比较稳定
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-04-21 14:15" pubdate>
+              2023-04-21
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%88%91%E4%B8%8D%E6%98%AF%E7%9B%90%E7%A5%9E/">#我不是盐神</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2023/04/21/0c3182b138f0b42f1e6e7ef919ac7831/" target="_self">
+          生机
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/04/21/0c3182b138f0b42f1e6e7ef919ac7831/" target="_self">
+        <div>
+          我的妈妈是被拐卖来的，我从小就知道。  她不太爱说话，也不爱搭理我。 我对她最深的印象是五岁那年，我和她一起上山砍柴。 在山下的小河边，只有我和她两人。 我紧紧地拽着她的衣角，仰头叫她，她却不应我。只是忽然落了眼泪，然后将我一把拎起，一只手压着我的腰，一只手将我的头按在水里。 我记得那是一个冬天，河面上还结着薄薄的冰。 我的鼻子里、嘴里全是冷冷的冰水，我在水里剧烈地挣扎。 好不容易喘口气，我
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-04-21 14:15" pubdate>
+              2023-04-21
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%88%91%E4%B8%8D%E6%98%AF%E7%9B%90%E7%A5%9E/">#我不是盐神</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2023/04/21/13180e746cc64bdfc2f93b95299d371b/" target="_self">
+          你们有没有什么甜甜的小故事？ -白日梦小说
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/04/21/13180e746cc64bdfc2f93b95299d371b/" target="_self">
+        <div>
+          你们有没有什么甜甜的小故事？ -  “你抱够了没有，你已经不是小女孩了，你胸前长了两个包包那么大，压的我透不过气了……”带有磁性低调的声音挑逗着她少女的心。 “别挂上来，抱着就可以了你还挂在我脖子上，下去………” 季时嘟着小可爱的嘴，醉得话都说不清楚，“挂一下又怎样，我又不肥，哥哥你下面那什么顶着我，好不舒服，啊，你居然…石更了…我把你当兄弟你居然想 shui 我” “啊!好痛!”下身酸软灼热的感
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-04-21 14:15" pubdate>
+              2023-04-21
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%88%91%E4%B8%8D%E6%98%AF%E7%9B%90%E7%A5%9E/">#我不是盐神</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2023/04/21/1fb96248caa002f9fcf1ed3244804e2e/" target="_self">
+          有推荐小说吗？超甜或超虐的那种？
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/04/21/1fb96248caa002f9fcf1ed3244804e2e/" target="_self">
+        <div>
+          有推荐小说吗？超甜或超虐的那种？ 吾玉​ 她成了当朝皇后，却不过只是一个可怜的替身，真正的皇后早就死了。她守着藏在甘蔗里的那个秘密，爱而不得，却从不知道，他爱的人始终是她。（一） 萧冉从树上跳下来，发带飞扬，跃在司慕南面前，一拍他脑袋： “小结巴，怎么来得这么晚，磨磨蹭蹭的的，快，把甘蔗拿出来，今天教你连云十三式！” 司慕南不乐意了，慢吞吞地从背后掏出两根水汪汪的甘蔗，仰头撇嘴：“不，不是说好，不
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-04-21 14:15" pubdate>
+              2023-04-21
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%88%91%E4%B8%8D%E6%98%AF%E7%9B%90%E7%A5%9E/">#我不是盐神</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2023/04/21/28eed7dbaa1afbeeadf56477d9b81ffa/" target="_self">
+          如何以“我是被王爷将军从青楼里赎回来的”为开头写一个故事
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/04/21/28eed7dbaa1afbeeadf56477d9b81ffa/" target="_self">
+        <div>
+          如何以“我是被王爷将军从青楼里赎回来的”为开头写一个故事 -  我是被王爷从青楼里赎回来的。 那天他是来赎我姐姐的，瞥了一眼我的脸，「这是什么恶心的东西！」 姐姐在他怀里一撒娇，指着我说：「王爷，我这个妹妹命苦，长相丑陋，您行行好，花个三五子把她也赎了，做我的丫鬟倒也省心。」 王爷大手一挥，扔下了一个银锭，我便也跟着进了王府。 姐姐得以入王府，得益于我。 我自小，便有些不同。 我能看穿人心，一个人
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-04-21 14:15" pubdate>
+              2023-04-21
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%88%91%E4%B8%8D%E6%98%AF%E7%9B%90%E7%A5%9E/">#我不是盐神</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2023/04/21/3434adbc3decd52616092d3c05703436/" target="_self">
+          是什么让你决定放弃一个你暗恋许久的人
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/04/21/3434adbc3decd52616092d3c05703436/" target="_self">
+        <div>
+          是什么让你决定放弃一个你暗恋许久的人 -  我和他暧昧四年，毕业那天，他终于表白了，还当着所有人的面吻了我。 第二天他的前女友拖着行李箱，站到我们面前，笑靥如花。 池澈的前任回来了。 在我刚和他确定关系的第二天。 那天正式毕业离校，我提着大包小包走出宿舍楼，就看到那个女生风情万种地勾着他的脖子。 他似乎想推开她，但是并未用力。 直到她突然踮起脚尖，够到他薄薄的嘴唇。 我的头就像忽然被人重重敲了一棒
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-04-21 14:15" pubdate>
+              2023-04-21
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%88%91%E4%B8%8D%E6%98%AF%E7%9B%90%E7%A5%9E/">#我不是盐神</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2023/04/21/386b464a78c0a02d33345103d9c62974/" target="_self">
+          什么经历让你觉得人心险恶？
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/04/21/386b464a78c0a02d33345103d9c62974/" target="_self">
+        <div>
+          什么经历让你觉得人心险恶？ -  失去宝宝后，我总是听见婴儿的啼哭声。 我老公和婆婆都听不见。只有我一个人能听见。 我的病情越来越严重，就家人准备把我送去精神病院的时候，邻居问我，你家孩子晚上怎么老哭？ 我愣住了，最可能的结果就摆在我的面前，但是我突然不敢细想。 1 半夜从梦中惊醒，身边的老公睡得香甜，小孩儿的哭声清晰地传来，我轻轻推了推在睡梦中的人：「老公，你听，真的有人在哭。」 「别闹了，快睡
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-04-21 14:15" pubdate>
+              2023-04-21
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%88%91%E4%B8%8D%E6%98%AF%E7%9B%90%E7%A5%9E/">#我不是盐神</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2023/04/21/53945a8130c8adfac8b2757c11ac027f/" target="_self">
+          哪一瞬间让你感到绝望 - 李鱼非鱼
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/04/21/53945a8130c8adfac8b2757c11ac027f/" target="_self">
+        <div>
+          哪一瞬间让你感到绝望 -  我老公坠楼了，躺在一片血泊之中。 警察迅速封锁了现场，几日后，尸检报告出来了，死因是颅内大出血，身上有多处与人打斗的痕迹。 警方告诉我，他死于自尽，没有凶手。 我不信。 1 我叫江南风，是南大刚毕业的医学生。 我老公叫凌长君，是南大的讲师，也是南医的医生。 我老公平时温润儒雅，为人和善，也没有精神疾病史。 这个死，过于离奇。 我坐在他的书桌前发呆，一只色彩明艳的蝴蝶飞在
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-04-21 14:15" pubdate>
+              2023-04-21
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%88%91%E4%B8%8D%E6%98%AF%E7%9B%90%E7%A5%9E/">#我不是盐神</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2023/04/21/57946c87890298e7befb63151bf66cf1/" target="_self">
+          有没有可以笑出姨母笑的绝世甜文？给九皇子冲喜
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2023/04/21/57946c87890298e7befb63151bf66cf1/" target="_self">
+        <div>
+          有没有可以笑出姨母笑的绝世甜文？ -  我出身青楼，样貌却与公主生得十分相似。 也因此被纹上公主同款莲花，代替她去敌国和亲。 为了羞辱我，老皇帝将我赐给断了双腿的九皇子陆斐冲喜。 传言陆斐是他最厌恶的儿子，自从在战场上断了双腿，便再也站不起来，命不久矣。 新婚之夜，一个戴面具的人掀开喜帕，我望着他肩宽腿长的身材，惊喜道： 「谣言，果然是谣言，夫君真是身体康健。」 谁知他一侧身，身后穿着喜服的少年坐
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-04-21 14:15" pubdate>
+              2023-04-21
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%88%91%E4%B8%8D%E6%98%AF%E7%9B%90%E7%A5%9E/">#我不是盐神</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/page/266/#board"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/265/#board">265</a><a class="page-number" href="/page/266/#board">266</a><span class="page-number current">267</span><a class="page-number" href="/page/268/#board">268</a><a class="page-number" href="/page/269/#board">269</a><span class="space">&hellip;</span><a class="page-number" href="/page/288/#board">288</a><a class="extend next" rel="next" href="/page/268/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
